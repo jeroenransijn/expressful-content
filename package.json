@@ -1,0 +1,25 @@
+{
+  "name": "expressful-content",
+  "version": "0.1.0",
+  "description": "Give JSON and CSON superpowers for content management",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "json",
+    "cson",
+    "extend",
+    "mixins",
+    "transform"
+  ],
+  "author": "Jeroen Ransijn <jssrdesign@gmail.com> (http://jeroenransijn.nl/)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "cson": "^3.0.2"
+  }
+}
