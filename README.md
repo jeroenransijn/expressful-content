@@ -1,5 +1,5 @@
 # Expressful content
-> Give JSON and CSON superpowers
+> Give JSON and CSON superpowers for content management
 
 ```
 $ npm install expressful-content --save
@@ -26,9 +26,9 @@ parseFile(CONTENT_DIRECTORY, 'homepage.cson');
 
 ```javascript
 {
-	title: 'Homepage',
-	brandName: 'Expressful content',
-	posts: [{ title: 'My first article'}, { title: 'My second article' }]
+  title: 'Homepage',
+  brandName: 'Expressful content',
+  posts: [{ title: 'My first article'}, { title: 'My second article' }]
 }
 ```
 
@@ -52,14 +52,14 @@ title: "Homepage"
 __extend: "global.cson",
 
 __list:
-  directory: 'blog'
-	as: 'posts'
+  directory: 'blog',
+  as: 'posts'
 ```
 
 **global.json**
 ```json
 {
-	"brandName": "Expressful content"
+  "brandName": "Expressful content"
 }
 ```
 
